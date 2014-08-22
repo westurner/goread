@@ -36,6 +36,9 @@ a.navbar-brand {
 .story {
     border-left: 1px solid #d7d7d7;
 }
+.story.selected {
+    border-left: 1px solid #ccc;
+}
 .story-header {
     background-color: #f7f7f7;
 }
@@ -47,6 +50,15 @@ a.navbar-brand {
 }
 .story-footer {
     background-color: inherit;
+}
+.active {
+    color: #8b2200;
+}
+.all-subs {
+    padding: 2px 0;
+}
+div#feed-list ul.list-unstyled li {
+    padding-top: 6px;
 }
 /* 
 .btn-primary {
